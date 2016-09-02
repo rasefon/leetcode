@@ -4,8 +4,12 @@
 public class Main {
 
     public static void main(String[] args) {
-        Candy135 candy135 = new Candy135();
-        int result = candy135.candy(new int[]{1, 2});
+        DungeonGame174 dungeonGame174 = new DungeonGame174();
+        int result = dungeonGame174.calculateMinimumHP(new int[][]{
+                {1, -3, 3},
+                {0, -2, 0},
+                {-3, -3, -3}
+        });
 
         System.out.print(result);
     }
