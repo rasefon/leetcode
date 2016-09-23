@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<String> ret = BinaryWatch401.readBinaryWatch(2);
+        List<String> ret = BinaryWatch401.readBinaryWatch(4);
         System.out.println(ret);
     }
 }
